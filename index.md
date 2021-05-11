@@ -2,13 +2,15 @@
 <h1>GDPR Cookies lab</h1>
 <p>Student: Denis Chris Isac.</p>
 
+<h2>Welcome!.</h2>
+
 <script> 
  document.cookie = "session: you are being watched";
  document.cookie = "Ne place sa stim pe ce dai click";
  function alertCookie() { alert(document.cookie); }
  </script>
 
-<body> Welcome, my friend! <button onclick="alertCookie()">Show cookies</button> </body>
+<button onclick="alertCookie()">Show cookies</button>
 
 <script>
 allCookies = document.cookie;
@@ -59,7 +61,7 @@ function resetOnce() {
 <button onclick="resetOnce()">Reset only once cookie</button>
 
 
-<p>Date/Time: <span id="datetime"></span></p>
+<p>Date: <span id="datetime"></span></p>
 
 <script>
 var dt = new Date();
