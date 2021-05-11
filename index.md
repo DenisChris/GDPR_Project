@@ -1,4 +1,7 @@
 
+<h1>GDPR Cookies lab</h1>
+<p>Student: Denis Chris Isac.</p>
+
 <script> 
  document.cookie = "session: you are being watched";
  document.cookie = "Ne place sa stim pe ce dai click";
@@ -55,13 +58,6 @@ function resetOnce() {
  </script>
 <button onclick="resetOnce()">Reset only once cookie</button>
 
-//ES5
-
-if (document.cookie.split(';').some(function(item) {
-    return item.trim().indexOf('reader=') == 0
-})) {
-    console.log('The cookie "reader" exists (ES5)')
-}
 
 <p>Date/Time: <span id="datetime"></span></p>
 
