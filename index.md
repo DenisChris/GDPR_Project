@@ -27,7 +27,7 @@ Syntax highlighted code block
 ```
 <script> document.cookie = "session: you are being watched"; document.cookie = "Ne place sa stim pe ce dai click"; function alertCookie() { alert(document.cookie); } </script>
 
-<body> Bine ai venit la lab <button onclick="alertCookie()">Show cookies</button> </body>
+<body> Welcome, my friend! <button onclick="alertCookie()">Show cookies</button> </body>
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
