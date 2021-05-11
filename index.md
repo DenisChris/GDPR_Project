@@ -35,7 +35,7 @@ function alertCookieValue() {
 }
  </script> 
  
-<button onclick="alertCookieValue()">Show cookie value</button
+<button onclick="alertCookieValue()">Show cookie value</button>
  
  <script> 
  function doOnce() {
