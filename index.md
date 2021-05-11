@@ -25,7 +25,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-<script> document.cookie = "session=test GDPR"; document.cookie = "favorite_task=collect Data"; function alertCookie() { alert(document.cookie); } </script>
+<script> document.cookie = "Furam bani din conturi, deci te indemnam sa adaugi datele cardului tau! :)"; document.cookie = "De asemenea, ne place sa vedem pe ce dai clickuri"; function alertCookie() { alert(document.cookie); } </script>
 
 <body> Bine ai venit la lab <button onclick="alertCookie()">Show cookies</button> </body>
 
